@@ -1,5 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Caveat&family=Raleway:wght@400;700&display=swap');
+
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+.wrapper {
+  display: flex;
+  flex-flow: column;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  font-family: 'Alfa Slab One', cursive;
+  font-size: 50px;
+
+
+}
+
+p {
+  font-family: 'Raleway', sans-serif;
+  font-size: 30px;
+
+}
+
+.blurraz {
+  padding: 20px;
+  width: 100%;
+  backdrop-filter: blur(10px);
 }
